@@ -9,3 +9,5 @@
 ### 12 月
 
 * 为 [RevyOS/docs](https://github.com/RevyOS/docs) 添加了 `Pangu.js` 断字支持 [PR](https://github.com/revyos/docs/pull/3)
+* 翻译 [RevyOS/docs](https://github.com/revyos/docs) 中的中文文档为英文，并调整了目录结构 [PR](https://github.com/revyos/docs/pull/4)
+* 调试 [RevyOS/docs](https://github.com/revyos/docs) 的 Github Action CI 以解决语言切换选项缺失问题 [PR](https://github.com/revyos/docs/pull/10)
