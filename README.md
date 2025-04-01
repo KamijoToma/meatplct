@@ -25,4 +25,4 @@
 ### 3 月
 
 * 构建了 Docker 编译 TH1520 Linux 内核的镜像 [仓库](https://github.com/KamijoToma/xuantie-kernel-docker) 并相应修改文档 [PR](https://github.com/revyos/docs/pull/36) 发现问题 [Issue](https://github.com/revyos/revyos/issues/115)
-
+* 构建了 RevyOS 图形化刷写工具 [仓库](https://github.com/KamijoToma/revyos-tauri-flash) 并修复了上游 fastboot-rs 的一个 Bug [fastboot-rs](https://github.com/KamijoToma/fastboot-rs) 为 C920 芯片适配了 thead-tools 工具[thead-tools](https://github.com/KamijoToma/thead-tools) 编写了实验性的基于 WebUSB 的刷写工具 [RevyOS WebFlash](https://github.com/KamijoToma/revyos-webflash)
