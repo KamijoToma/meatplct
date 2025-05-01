@@ -26,3 +26,10 @@
 
 * 构建了 Docker 编译 TH1520 Linux 内核的镜像 [仓库](https://github.com/KamijoToma/xuantie-kernel-docker) 并相应修改文档 [PR](https://github.com/revyos/docs/pull/36) 发现问题 [Issue](https://github.com/revyos/revyos/issues/115)
 * 构建了 RevyOS 图形化刷写工具 [仓库](https://github.com/KamijoToma/revyos-tauri-flash) 并修复了上游 fastboot-rs 的一个 Bug [fastboot-rs](https://github.com/KamijoToma/fastboot-rs) 为 C920 芯片适配了 thead-tools 工具[thead-tools](https://github.com/KamijoToma/thead-tools) 编写了实验性的基于 WebUSB 的刷写工具 [RevyOS WebFlash](https://github.com/KamijoToma/revyos-webflash)
+
+### 4 月
+
+1. [tauri-flash](https://github.com/KamijoToma/revyos-tauri-flash) 交了几个commit
+2. 解决 [NPU模型加速问题](https://github.com/revyos/revyos/issues/126) 和衍生出的简单的Python调用NPU库 [th1520_npu_python](https://github.com/KamijoToma/th1520_npu_python)
+3. 修了几个文档的小错误[1](https://github.com/revyos/docs/pull/45) [2](https://github.com/revyos/docs/pull/44) [3](https://github.com/revyos/docs/pull/40)
+4. 镜像的Chromium浏览器现在有RevyOS相关书签了 [PR](https://github.com/revyos/mkimg-th1520/pull/18)
